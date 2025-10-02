@@ -1,42 +1,34 @@
-Crop-Advisory-System
-Overview
-The Crop-Advisory-System project is designed to detect suitable crops for cultivation in a specified agricultural area using a machine learning model integrated with sensor data and a microcontroller (ESP32). The system primarily focuses on assisting farmers by providing crop recommendations based on environmental and soil parameters collected from the targeted region of Kattankulathur, Tamil Nadu, India.
+# Crop-Advisory-System
 
-Features
-Real-time data collection via sensors connected to the ESP32 microcontroller.
+## Overview
+The Crop-Advisory-System is a machine learning and IoT-based project designed to recommend suitable crops for cultivation in a specific agricultural area. Using an ESP32 microcontroller and environmental sensors, the system collects real-time field data to inform crop selection, focusing on Kattankulathur, Tamil Nadu, India.
 
-Machine learning model for crop suitability prediction.
+## Features
+- Real-time data acquisition via ESP32 and sensors
+- Machine learning model for crop suitability analysis
+- Decision support for crop selection based on collected soil and environmental parameters
+- Targeted recommendations for large agricultural regions
 
-Insights on the best crops for a large agricultural area in Kattankulathur.
+## Components
+- **ESP32 Microcontroller:** Connects and collects data from environmental sensors
+- **Sensors:** Measure relevant conditions such as soil moisture, temperature, and more
+- **Machine Learning Model:** Processes sensor data to predict best-fit crops for the region
 
-Automation and precision in agricultural decision-making.
+## Usage
+1. Attach environmental sensors to the ESP32 microcontroller.
+2. Install the system in the target agricultural area.
+3. Gather sensor readings for real-time data input.
+4. Process the data through the machine learning model.
+5. Use the resulting recommendations to select optimal crops for cultivation.
 
-Components
-ESP32 Microcontroller: Used for interfacing with sensors and transmitting data.
+## Area of Focus
+- Currently implemented for the region of Kattankulathur, Tamil Nadu, India
 
-Sensors: Used to measure various environmental and soil parameters critical for crop growth.
+## Installation & Setup
+> **Instructions coming soon:** Steps for installing requirements, configuring hardware, and running the machine learning model will be provided in a future update.
 
-Machine Learning Model: Analyzes the sensor data to predict suitable crop types.
+## Contributing
+Contributions are welcome! Suggestions to improve model accuracy, extend sensor support, or expand to new regions are encouraged.
 
-Usage
-Connect sensors to the ESP32 microcontroller.
-
-Deploy the system in the targeted agricultural area.
-
-Collect data through the sensors.
-
-Use the machine learning model to analyze data and get crop recommendations.
-
-Utilize the recommendations to optimize crop selection for better yield.
-
-Area of Focus
-The project currently targets the agricultural region of Kattankulathur in Tamil Nadu, India.
-
-Installation & Setup
-Detailed instructions for installation and setup will be provided to connect sensors, configure the ESP32, and run the machine learning model.
-
-Contributing
-Contributions are welcome to improve the accuracy of the model, expand sensor integration, and support more geographical areas.
-
-License
-This project is open-source and free to use. See the LICENSE file for details
+## License
+This project is open source. License details will be updated soon.
