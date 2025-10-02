@@ -39,4 +39,4 @@ Contributing
 Contributions are welcome to improve the accuracy of the model, expand sensor integration, and support more geographical areas.
 
 License
-This project is open-source and free to use. See the LICENSE file for details.
+This project is open-source and free to use. See the LICENSE file for details
